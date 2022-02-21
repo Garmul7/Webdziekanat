@@ -1,0 +1,39 @@
+.title {
+  margin: 60px;
+  border: dotted;
+  text-align: center;
+}
+
+.semester{
+  border: 1px solid black;
+  margin: 2rem;
+  font-weight: bold;
+  background-color: #800000;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+
+
+.infolabel{
+
+  font-weight: bold;
+  font-size: 70%;
+}
+
+.infoinfo{
+  text-align: center;
+  font-weight: normal;
+  font-size: 50%;
+}
+
+.subtitle{
+  text-align: center;
+  text-decoration: underline;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: #ffcccc;
+}

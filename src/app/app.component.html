@@ -1,0 +1,60 @@
+
+<body>
+<div class="redbar">
+  <div class="container full-height-grow">
+    <header class="main-header">
+      <a [routerLink]="'/announcments'" class="brand-logo">
+        <!-- to jest do zdj polibudy-->
+        <!--   <img src="pollodzlogo.jpg">  -->
+        <div class="brand-logo-name">Web Dziekanat</div>
+        <img src="../assets/pollodzlogo.jpg" class="pllogo">
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a [routerLink]="'/announcments'">Home</a></li>
+          <li><a href="https://virtul.p.lodz.pl/virtul/">VirTUL</a></li>
+          <li><a href="https://edu.p.lodz.pl/">Wikamp</a></li>
+          <li><a href="https://poczta.p.lodz.pl/">E-mail</a></li>
+          <div class="dropdown">
+            <li>
+              <a class="dropbtn">Timetables</a>
+              <div class="dropdown-content">
+                <a href="https://www.ife.p.lodz.pl/pl/plany-zajec">IFE</a>
+                <a [routerLink]="'/announcments'">WYDZIAŁ MECHANICZNY W1</a>
+                <a [routerLink]="'/announcments'">WEEIA</a>
+                <a [routerLink]="'/announcments'">WFTIMS</a>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li>
+              <a class="dropbtn">Info/Help</a>
+              <div class="dropdown-content">
+                <a href="https://programy.p.lodz.pl/ectslabel-web/">About Programmes</a>
+                <a href="https://www.p.lodz.pl/pl/lista/podzial-roku-akademickiego">Obligatory deadlines</a>
+              </div>
+            </li>
+          </div>
+          <li><a (click)="LoggedIn()" [routerLink]="'/announcments'">{{this.logInOrOut}}</a></li>
+        </ul>
+        <ul *ngIf="login == true">
+          <li><a [routerLink]="['/studentinfo']">Student Info</a></li>
+          <li><a [routerLink]="'/grades'">Grades</a></li>
+          <li><a [routerLink]="'/payments'">Payments</a></li>
+          <li><a [routerLink]="'/registration'">Registration PE / Exam</a></li>
+        </ul>
+
+      </nav>
+    </header>
+  </div>
+</div>
+
+<div class="container full-height-grow" style="align-items: center">
+  <section class="home-main-section">
+
+  <router-outlet></router-outlet>
+  </section>
+</div>
+
+</body>
+

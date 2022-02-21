@@ -1,0 +1,140 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  font-size: 0.5em;
+  color: inherit;
+  text-decoration: none;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.pllogo {
+  height: 125px;
+  margin-left: 2rem;
+}
+
+.brand-logo-name {
+  margin-left: 1rem;
+  font-size: 5rem;
+}
+
+.main-nav ul{
+
+  cursor: pointer;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a {
+  border: 1px solid black;
+
+  font-size: 75%;
+  font-weight: bold;
+  color: black;
+  background-color: #ffcccc;
+  text-decoration: none;
+  padding: 0.2rem;
+  border-radius: .5rem;
+  margin: 0.3rem;
+}
+
+.main-nav a:hover {
+  color: red;
+}
+
+.main-header {
+  align-items: center;
+  align-self:center;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.title {
+  margin: 60px;
+  border: dotted;
+  text-align: center;
+}
+
+.redbar {
+  background-color: #800000;
+  padding: 2rem;
+}
+
+.dropbtn {
+
+}
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  border: 1px solid black;
+
+  margin-top: 0.1rem;
+  display: none;
+  position: absolute;
+  z-index: 999;
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 50%;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #800000;
+  border-radius: 0.5rem;
+}
+
+.dropdown:hover .dropbtn {
+  color: red;
+}
+
+.annoucment {
+  max-width: 500px;
+  background-color: #ffcccc;
+  padding: 1rem;
+  border-radius: .5rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.annoucment h {
+  font-size: 100%;
+  font-weight: bold;
+  background-color: #800000;
+}
+.annoucment p{
+  font-size:50%;
+}
+.annoucment-bar {
+  border-radius: .5rem;
+  background-color: #800000;
+  padding: 1rem;
+}
+

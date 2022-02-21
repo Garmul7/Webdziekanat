@@ -1,0 +1,14 @@
+.redbar {
+  background-color: #800000;
+  padding: 2rem;
+
+}/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFDCDC;
+  font-family: 'Times New Roman';
+  font-size: 2rem;
+  color: black;
+  min-height: 100vh;
+}

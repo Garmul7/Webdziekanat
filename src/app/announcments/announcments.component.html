@@ -1,0 +1,19 @@
+
+    <div>
+      <h1 class="title">Announcments</h1>
+      <announcments  *ngFor="let fooannoucment of announcments" >
+        <div class="annoucment">
+
+        <div class="announcment-bar">
+          <h>{{fooannoucment.announcmentTitle}}</h>
+          <br />
+          <p>{{fooannoucment.annoucmentDate}}</p>
+        </div>
+        <p class="announcment-description">{{fooannoucment.announcmentInfo}}</p>
+        </div>
+
+      </announcments>
+    </div>
+
+
+

@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+
+  margin: 60px;
+  border: dotted;
+  text-align: center;
+
+}
+
+.annoucment {
+  border: 1px solid black;
+
+  max-width: 500px;
+  background-color: #800000;
+  padding: 0.5rem;
+  padding-bottom: 1px;
+  border-radius: .5rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+
+.announcment-bar {
+  border-radius: .5rem;
+  background-color: #800000;
+  padding: 0.5rem;
+}
+
+.announcment-bar h {
+  font-weight: bold;
+}
+
+.announcment-bar p {
+
+  margin:0px;
+  font-size: 70%;
+
+}
+.announcment-description {
+  border: 1px solid black;
+
+  background-color: #ffcccc;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size:50%;
+}

@@ -1,0 +1,68 @@
+
+<div class="choicebar">
+  <h1 class="choice" (click)="ExamChoice()">Exam</h1>
+  <h1 class="choice" (click)="PEChoice()">PE</h1>
+</div>
+
+<div class="choicemade" *ngIf="Exam == true">
+  Exam List
+  <table>
+    <thead>
+    <tr>
+      <th class="infolabel">Subject Code</th>
+      <th class="infolabel">Subject Name</th>
+      <th class="infolabel">Date</th>
+      <th class="infolabel">Lecturer</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="infoinfo">GWSF543</td>
+      <td class="infoinfo">Mathematics 1</td>
+      <td class="infoinfo">11.11.2020</td>
+      <td class="infoinfo">H. Jankowicz</td>
+      <td class ="button"> REGISTER</td>
+    </tr>
+
+    <tr>
+      <td class="infoinfo">SGDAE23</td>
+      <td class="infoinfo">Mathematics 2</td>
+      <td class="infoinfo">10.11.2020</td>
+      <td class="infoinfo">H. Jankowicz</td>
+      <td class ="button"> REGISTER</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div class="choicemade" *ngIf="PE == true">
+  PE List
+  <table>
+    <thead>
+    <tr>
+      <th class="infolabel">Subject Code</th>
+      <th class="infolabel">Subject Name</th>
+      <th class="infolabel">Hours</th>
+      <th class="infolabel">Lecturer</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="infoinfo">GFSGSGSF</td>
+      <td class="infoinfo">Soccer</td>
+      <td class="infoinfo">Thursday 4pm.</td>
+      <td class="infoinfo">A. Kubiak</td>
+      <td class ="button"> REGISTER</td>
+    </tr>
+
+    <tr>
+      <td class="infoinfo">GSWHQDG</td>
+      <td class="infoinfo">Basketball</td>
+      <td class="infoinfo">Wednesday 2pm.</td>
+      <td class="infoinfo">R. Makłowicz</td>
+      <td class ="button"> REGISTER</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
